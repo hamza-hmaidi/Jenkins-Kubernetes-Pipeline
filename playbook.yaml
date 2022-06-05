@@ -1,0 +1,9 @@
+- hosts: localhost
+  become: yes
+  vars:
+    jenkins_hostname: hamza-Latitude-5520
+    docker_users:
+    - jenkins
+  roles:
+    - role: geerlingguy.jenkins
+    - role: geerlingguy.docker
