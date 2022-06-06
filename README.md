@@ -8,7 +8,7 @@ We are using a very simple application written in Go. For the sake of simplicity
 
 - A running Jenkins instance
 - Docker hub image registry
-- for my example I’am using a Kubernetes cluster that’s hosted on Google Cloud
+- for my example I’am using a preconfigured simple Kubernetes cluster that’s hosted on Google Cloud
 - Ansible installed
 
 ### Jenkins Plugins to be installed
